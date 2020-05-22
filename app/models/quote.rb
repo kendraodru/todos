@@ -3,5 +3,5 @@ class Quote < ApplicationRecord
 
     belongs_to :user,
     foreign_key: :user_id,
-    clas_name: :User
+    class_name: :User
 end
